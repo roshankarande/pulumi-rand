@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-rand/examples
+module github.com/roshankarande/pulumi-rand/examples
 
 go 1.14
 

@@ -22,7 +22,7 @@ import (
 	"github.com/pulumi/pulumi-terraform-bridge/v2/pkg/tfbridge"
 	"github.com/pulumi/pulumi/sdk/v2/go/common/resource"
 	"github.com/pulumi/pulumi/sdk/v2/go/common/tokens"
-	"github.com/terraform-providers/terraform-provider-rand/rand"
+	rand "github.com/terraform-providers/terraform-provider-random/random"
 )
 
 // all of the token components used below.
@@ -97,7 +97,7 @@ func Provider() tfbridge.ProviderInfo {
 		Keywords:    []string{"pulumi", "rand"},
 		License:     "Apache-2.0",
 		Homepage:    "https://pulumi.io",
-		Repository:  "https://github.com/pulumi/pulumi-rand",
+		Repository:  "https://github.com/roshankarande/pulumi-rand",
 		Config:      map[string]*tfbridge.SchemaInfo{
 			// Add any required configuration here, or remove the example below if
 			// no additional points are required.

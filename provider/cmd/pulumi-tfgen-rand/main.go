@@ -17,8 +17,8 @@ package main
 import (
 	"github.com/pulumi/pulumi-terraform-bridge/v2/pkg/tfgen"
 
-	rand "github.com/pulumi/pulumi-rand/provider"
-	"github.com/pulumi/pulumi-rand/provider/pkg/version"
+	rand "github.com/roshankarande/pulumi-rand/provider"
+	"github.com/roshankarande/pulumi-rand/provider/pkg/version"
 )
 
 func main() {

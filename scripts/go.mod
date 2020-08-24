@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-rand/scripts/
+module github.com/roshankarande/pulumi-rand/scripts/
 
 go 1.14
 

@@ -1,3 +1,3 @@
-module github.com/pulumi/pulumi-rand/sdk
+module github.com/roshankarande/pulumi-rand/sdk
 
 go 1.14
